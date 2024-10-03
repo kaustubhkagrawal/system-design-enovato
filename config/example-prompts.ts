@@ -1,41 +1,41 @@
 export const examplePrompts = [
   {
-    name: "Top-rated Restaurants",
+    name: "System Design",
     content: "What are the top-rated restaurants in ::city::?",
   },
   {
-    name: "Recent news in city",
+    name: "Algorithms",
     content: "What are the recent news in ::city::",
   },
   {
-    name: "Summarize article",
+    name: "Data Structures",
     content: "Summarize the main points of ::article title or URL::",
   },
   {
-    name: "Generate a SQL query",
+    name: "SQL query",
     content:
       "Generate a SQL query to ::count and sort unique logins in the last month::",
   },
   {
-    name: "Search for coding solutions",
+    name: "Greedy Algorithms",
     content: "Search for solutions to ::specific coding error::",
   },
 
-  {
-    name: "Travel itinerary",
-    content: "Create a 3-day travel itinerary for ::destination::",
-  },
-  {
-    name: "Explain concept",
-    content: "Explain ::complex concept:: in simple terms",
-  },
-  {
-    name: "Healthy meal plan",
-    content: "Generate a week-long meal plan for ::dietary restriction::",
-  },
-  {
-    name: "Language translation",
-    content:
-      "Translate '::phrase::' from ::source language:: to ::target language::",
-  },
+  // {
+  //   name: "Travel itinerary",
+  //   content: "Create a 3-day travel itinerary for ::destination::",
+  // },
+  // {
+  //   name: "Explain concept",
+  //   content: "Explain ::complex concept:: in simple terms",
+  // },
+  // {
+  //   name: "Healthy meal plan",
+  //   content: "Generate a week-long meal plan for ::dietary restriction::",
+  // },
+  // {
+  //   name: "Language translation",
+  //   content:
+  //     "Translate '::phrase::' from ::source language:: to ::target language::",
+  // },
 ];

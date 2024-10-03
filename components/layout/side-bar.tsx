@@ -213,7 +213,7 @@ export const Sidebar = () => {
                 size="icon-xs"
                 variant="ghost"
                 onClick={() => {
-                  window.open("https://git.new/enovato", "_blank");
+                  window.open("https://git.new/tBl8Sdt", "_blank");
                 }}
               >
                 <BsGithub size={14} />

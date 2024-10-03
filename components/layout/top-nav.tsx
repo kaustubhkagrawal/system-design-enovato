@@ -79,7 +79,7 @@ export const TopNav = ({
             variant="bordered"
             size="sm"
             onClick={() => {
-              window.open("https://git.new/enovato", "_blank");
+              window.open("https://git.new/tBl8Sdt", "_blank");
             }}
           >
             <FaGithub size={16} />

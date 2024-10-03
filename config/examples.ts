@@ -447,23 +447,23 @@ export const examples: {
     },
   ],
   chatSessions: [
-    {
-      id: "6ba5d7fd814f",
-      title: "(Example) Top Performing Industries by Market Share",
-      createdAt: moment("2024-09-20T16:22:59.248Z").toDate(),
-      updatedAt: moment("2024-09-20T16:23:49.343Z").toDate(),
-    },
-    {
-      id: "b95e6d7334f1",
-      title: "(Example) Top-Rated Restaurants in New York",
-      createdAt: moment("2024-09-20T16:25:02.914Z").toDate(),
-      updatedAt: moment("2024-09-20T16:35:46.529Z").toDate(),
-    },
-    {
-      id: "54ff3c40c8f6",
-      title: "(Example) JavaScript Function to Convert Image to Base64",
-      createdAt: moment("2024-09-19T17:49:05.226Z").toDate(),
-      updatedAt: moment("2024-09-20T16:20:23.097Z").toDate(),
-    },
+    // {
+    //   id: "6ba5d7fd814f",
+    //   title: "(Example) Top Performing Industries by Market Share",
+    //   createdAt: moment("2024-09-20T16:22:59.248Z").toDate(),
+    //   updatedAt: moment("2024-09-20T16:23:49.343Z").toDate(),
+    // },
+    // {
+    //   id: "b95e6d7334f1",
+    //   title: "(Example) Top-Rated Restaurants in New York",
+    //   createdAt: moment("2024-09-20T16:25:02.914Z").toDate(),
+    //   updatedAt: moment("2024-09-20T16:35:46.529Z").toDate(),
+    // },
+    // {
+    //   id: "54ff3c40c8f6",
+    //   title: "(Example) JavaScript Function to Convert Image to Base64",
+    //   createdAt: moment("2024-09-19T17:49:05.226Z").toDate(),
+    //   updatedAt: moment("2024-09-20T16:20:23.097Z").toDate(),
+    // },
   ],
 };

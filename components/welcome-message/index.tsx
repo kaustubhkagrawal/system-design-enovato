@@ -153,7 +153,7 @@ export const WelcomeMessage = () => {
                   size="md"
                   variant="bordered"
                   onClick={() =>
-                    window.open("https://git.new/enovato", "_blank")
+                    window.open("https://git.new/tBl8Sdt", "_blank")
                   }
                 >
                   <FaGithub size={16} /> Github Repo

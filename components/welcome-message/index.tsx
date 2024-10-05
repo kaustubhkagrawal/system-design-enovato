@@ -76,9 +76,19 @@ export const WelcomeMessage = () => {
               className="w-full flex-1 overflow-hidden p-0 md:p-4"
             >
               <Type size="lg" className="pb-2">
-                Embark on a Learning Adventure!
+                Welcome to Enovato!
               </Type>
               <Flex direction="col" gap="xl" items="start">
+                <Type size="sm" textColor="secondary" className="flex gap-3">
+                  <Rocket
+                    size={20}
+                    strokeWidth={1.5}
+                    className="mt-1 flex-shrink-0"
+                  />
+                  <p className="inline-block leading-7 md:leading-6">
+                    Enovato is your AI-powered micro-learning platform.
+                  </p>
+                </Type>
                 <Type size="sm" textColor="secondary" className="flex gap-3">
                   <MessageCircle
                     size={20}
@@ -86,7 +96,7 @@ export const WelcomeMessage = () => {
                     className="mt-1 flex-shrink-0"
                   />
                   <p className="inline-block leading-7 md:leading-6">
-                   Dive deep into any topic through a guided, interactive experience, powered by AI. 
+                    Engage in interactive lessons on any topic, guided by our intelligent AI tutor.
                   </p>
                 </Type>
                 <Type size="sm" textColor="secondary" className="flex gap-3">
@@ -96,26 +106,16 @@ export const WelcomeMessage = () => {
                     className="mt-1 flex-shrink-0"
                   />
                   <p className="inline-block leading-7 md:leading-6">
-                   Learn effectively with the Socratic method, where AI asks insightful questions to boost your understanding.
-                  </p>
-                </Type>
-                <Type size="sm" textColor="secondary" className="flex gap-3">
-                  <WandSparkles
-                    size={20}
-                    strokeWidth={1.5}
-                    className="mt-1 flex-shrink-0"
-                  />
-                  <p className="inline-block leading-7 md:leading-6">
-                   Unlock new levels of knowledge and accelerate your learning journey.
+                    Learn effectively with the Socratic method, where AI asks insightful questions to deepen your understanding.
                   </p>
                 </Type>
               </Flex>
               <Type size="sm" textColor="secondary" className="pt-2">
-                Ready to start exploring?
+                Ready to start learning?
               </Type>
               <Flex gap="md">
                 <Button size="md" variant="default" onClick={handleClose}>
-                  Begin Learning <ArrowRight size={16} />
+                  Let's Go! <ArrowRight size={16} />
                 </Button>
               </Flex>
             </Flex>

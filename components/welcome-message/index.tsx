@@ -31,28 +31,7 @@ export type WelcomePoint = {
   text: React.ReactNode;
 };
 
-const welcomePoints: WelcomePoint[] = [
-  {
-    icon: MessageCircle,
-    text: <AiModelsCopy />,
-  },
-  {
-    icon: ToyBrick,
-    text: <PluginCopy />,
-  },
-  {
-    icon: WandSparkles,
-    text: <CustomAssistantCopy />,
-  },
-  {
-    icon: Lock,
-    text: <PrivacyCopy />,
-  },
-  {
-    icon: Rocket,
-    text: <OpenSourceCopy />,
-  },
-];
+const welcomePoints: WelcomePoint[] = [];
 
 export const WelcomeMessage = () => {
   const [open, setOpen] = useState(false);

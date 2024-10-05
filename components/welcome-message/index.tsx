@@ -76,66 +76,46 @@ export const WelcomeMessage = () => {
               className="w-full flex-1 overflow-hidden p-0 md:p-4"
             >
               <Type size="lg" className="pb-2">
-                Your Ultimate
-                <Flex className="mx-1 inline-block">
-                  <Image
-                    src={"./icons/handdrawn_spark.svg"}
-                    width={0}
-                    alt="spark"
-                    height={0}
-                    className={cn(
-                      "relative mx-1 h-4 w-10 translate-y-1 overflow-hidden dark:invert",
-                    )}
-                    sizes="100vw"
-                  />
-                </Flex>
-                Chat Experience Awaits!
+                Embark on a Learning Adventure!
               </Type>
               <Flex direction="col" gap="xl" items="start">
-                {welcomePoints.map((point, index) => {
-                  const Icon = point.icon;
-                  return (
-                    <Type
-                      key={index}
-                      size="sm"
-                      textColor="secondary"
-                      className="flex gap-3"
-                    >
-                      <Icon
-                        size={20}
-                        strokeWidth={1.5}
-                        className="mt-1 flex-shrink-0"
-                      />
-                      <p className="inline-block leading-7 md:leading-6">
-                        {point.text}
-                      </p>
-                    </Type>
-                  );
-                })}
+                <Type size="sm" textColor="secondary" className="flex gap-3">
+                  <MessageCircle
+                    size={20}
+                    strokeWidth={1.5}
+                    className="mt-1 flex-shrink-0"
+                  />
+                  <p className="inline-block leading-7 md:leading-6">
+                   Dive deep into any topic through a guided, interactive experience, powered by AI. 
+                  </p>
+                </Type>
+                <Type size="sm" textColor="secondary" className="flex gap-3">
+                  <ToyBrick
+                    size={20}
+                    strokeWidth={1.5}
+                    className="mt-1 flex-shrink-0"
+                  />
+                  <p className="inline-block leading-7 md:leading-6">
+                   Learn effectively with the Socratic method, where AI asks insightful questions to boost your understanding.
+                  </p>
+                </Type>
+                <Type size="sm" textColor="secondary" className="flex gap-3">
+                  <WandSparkles
+                    size={20}
+                    strokeWidth={1.5}
+                    className="mt-1 flex-shrink-0"
+                  />
+                  <p className="inline-block leading-7 md:leading-6">
+                   Unlock new levels of knowledge and accelerate your learning journey.
+                  </p>
+                </Type>
               </Flex>
               <Type size="sm" textColor="secondary" className="pt-2">
-                Start chatting now - it&apos;s{" "}
-                <Image
-                  src={"./icons/handdrawn_free.svg"}
-                  width={0}
-                  alt="sparck"
-                  height={0}
-                  className="mx-2 inline-block w-10 text-teal-400 dark:invert"
-                />{" "}
-                no sign-up needed!
+                Ready to start exploring?
               </Type>
               <Flex gap="md">
                 <Button size="md" variant="default" onClick={handleClose}>
-                  Start Chatting <ArrowRight size={16} />
-                </Button>
-                <Button
-                  size="md"
-                  variant="bordered"
-                  onClick={() =>
-                    window.open("https://git.new/tBl8Sdt", "_blank")
-                  }
-                >
-                  <FaGithub size={16} /> Github Repo
+                  Begin Learning <ArrowRight size={16} />
                 </Button>
               </Flex>
             </Flex>

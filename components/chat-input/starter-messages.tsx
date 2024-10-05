@@ -25,7 +25,7 @@ export const StarterMessages = ({ messages }: StarterMessages) => {
       className="w-full py-1"
     >
       <Type size="xs" textColor="tertiary">
-        Try these example prompts or craft your own message
+        Try any of the following topic to start your Micro Learning Session
       </Type>
       <StaggerContainer>
         <div className="flex flex-wrap justify-center gap-1.5 overflow-x-auto md:grid-cols-2">

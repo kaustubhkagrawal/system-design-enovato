@@ -115,7 +115,7 @@ export const WelcomeMessage = () => {
               </Type>
               <Flex gap="md">
                 <Button size="md" variant="default" onClick={handleClose}>
-                  Let's Go! <ArrowRight size={16} />
+                  Let&apos;s Go! <ArrowRight size={16} />
                 </Button>
               </Flex>
             </Flex>

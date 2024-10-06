@@ -1,24 +1,23 @@
 export const examplePrompts = [
   {
-    name: "System Design",
-    content: "Lets practise the system design for ::sample application::?",
+    name: "Explain a concept",
+    content: "Explain the concept of ::concept:: in simple terms.",
   },
   {
-    name: "Algorithms",
-    content: "What are the recent news in ::city::",
+    name: "Write different kinds of creative text formats",
+    content: "Write a ::creative text format:: about ::topic::.",
   },
   {
-    name: "Data Structures",
-    content: "Summarize the main points of ::article title or URL::",
+    name: "Answer your questions in an informative way",
+    content: "Answer the following question: ::question::",
   },
   {
-    name: "SQL query",
-    content:
-      "Generate a SQL query to ::count and sort unique logins in the last month::",
+    name: "Translate languages",
+    content: "Translate this sentence into ::language:: : ::sentence::",
   },
   {
-    name: "Greedy Algorithms",
-    content: "Search for solutions to ::specific coding error::",
+    name: "Summarize text",
+    content: "Summarize the following text: ::text::",
   },
 
   // {

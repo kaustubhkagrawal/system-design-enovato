@@ -1,7 +1,7 @@
 export const examplePrompts = [
   {
     name: "System Design",
-    content: "What are the top-rated restaurants in ::city::?",
+    content: "Lets practise the system design for ::sample application::?",
   },
   {
     name: "Algorithms",
